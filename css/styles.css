@@ -537,7 +537,7 @@ background-origin: border-box;
 background-color: var(--accent-color);
 background-color: var(--accent-color);
 
-outline: none !important;
+/* outline: none !important; */
 background-image: url(../imeges/Vector\ \(4\).svg);
 background-size: contain;
 
