@@ -515,7 +515,9 @@ fill: var(--accent-color);
   appearance: none;
  -moz-appearance: none;
  -webkit-appearance: none;
-  position: absolute;
+ 
+ position: absolute;
+ 
 
 }
 
@@ -525,6 +527,7 @@ fill: var(--accent-color);
     color: var(--primary-text-color);
     border-radius: 2px;
     margin-right: 7px;
+
 }
 
 .input-checkbox:checked + .icon-checkbox {
@@ -540,9 +543,6 @@ background-size: contain;
 
 }
 
-.icon-check {
-    position: absolute;
-}
 
 .model-link {
    color: rgba(33, 150, 243, 1);
